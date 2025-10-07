@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import profileImage from "@/assets/profile.jpg";
 
 const Hero = () => {
   const roles = [
@@ -61,12 +62,12 @@ const Hero = () => {
 
           <div className="flex justify-center animate-fade-in">
             <div className="relative">
-              <div className="w-72 h-72 rounded-full bg-gradient-to-br from-primary to-secondary p-1 animate-glow">
-                <div className="w-full h-full rounded-full bg-card flex items-center justify-center">
-                  <div className="w-64 h-64 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center text-6xl font-bold text-primary">
-                    SRK
-                  </div>
-                </div>
+              <div className="w-72 h-72 rounded-full bg-gradient-to-br from-primary to-secondary p-1 animate-glow shadow-2xl">
+                <img 
+                  src={profileImage} 
+                  alt="Siva Rama Krishna Malladi - Profile" 
+                  className="w-full h-full rounded-full object-cover border-4 border-card"
+                />
               </div>
             </div>
           </div>
