@@ -1,13 +1,13 @@
 const About = () => {
   return (
-    <section id="about" className="py-20 px-4 bg-accent/30">
+    <section id="about" className="py-20 px-4 bg-card/30 backdrop-blur-sm animate-slide-up">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-4xl font-bold text-center mb-12 text-foreground">
           About Me
         </h2>
 
         <div className="space-y-6">
-          <div className="bg-card rounded-lg p-6 shadow-sm">
+          <div className="bg-card/80 backdrop-blur-sm rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-300">
             <h3 className="text-xl font-semibold mb-3 text-primary">
               Self Declaration
             </h3>
@@ -20,7 +20,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="bg-card rounded-lg p-6 shadow-sm">
+          <div className="bg-card/80 backdrop-blur-sm rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-300">
             <h3 className="text-xl font-semibold mb-4 text-primary">
               Educational Details
             </h3>
@@ -43,7 +43,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="bg-card rounded-lg p-6 shadow-sm">
+          <div className="bg-card/80 backdrop-blur-sm rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-300">
             <h3 className="text-xl font-semibold mb-3 text-primary">
               More About Me
             </h3>

@@ -58,7 +58,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20 px-4 bg-accent/30">
+    <section id="contact" className="py-20 px-4 bg-card/30 backdrop-blur-sm animate-slide-up" style={{ animationDelay: '0.5s' }}>
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-4xl font-bold text-center mb-4 text-foreground">
           Get In Touch
@@ -69,7 +69,7 @@ const Contact = () => {
         </p>
 
         <div className="grid md:grid-cols-2 gap-8">
-          <Card className="animate-fade-in">
+          <Card className="animate-fade-in bg-card/80 backdrop-blur-sm shadow-md hover:shadow-xl transition-all duration-300">
             <CardHeader>
               <CardTitle>Send a Message</CardTitle>
             </CardHeader>
@@ -119,7 +119,7 @@ const Contact = () => {
           </Card>
 
           <div className="space-y-6 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-xl transition-all duration-300 bg-card/80 backdrop-blur-sm">
               <CardContent className="flex items-center gap-4 p-6">
                 <div className="p-3 bg-primary/10 rounded-lg">
                   <Mail className="w-6 h-6 text-primary" />
@@ -136,7 +136,7 @@ const Contact = () => {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-xl transition-all duration-300 bg-card/80 backdrop-blur-sm">
               <CardContent className="flex items-center gap-4 p-6">
                 <div className="p-3 bg-primary/10 rounded-lg">
                   <Linkedin className="w-6 h-6 text-primary" />
@@ -155,7 +155,7 @@ const Contact = () => {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-lg transition-shadow">
+            <Card className="hover:shadow-xl transition-all duration-300 bg-card/80 backdrop-blur-sm">
               <CardContent className="flex items-center gap-4 p-6">
                 <div className="p-3 bg-primary/10 rounded-lg">
                   <Github className="w-6 h-6 text-primary" />

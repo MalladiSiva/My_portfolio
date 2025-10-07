@@ -3,7 +3,7 @@ import { Briefcase } from "lucide-react";
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-20 px-4">
+    <section id="experience" className="py-20 px-4 animate-slide-up" style={{ animationDelay: '0.4s' }}>
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-4xl font-bold text-center mb-12 text-foreground">
           Experience
@@ -12,7 +12,7 @@ const Experience = () => {
         <div className="relative">
           <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-primary/20 hidden md:block" />
 
-          <Card className="relative hover:shadow-lg transition-all duration-300 animate-fade-in">
+          <Card className="relative hover:shadow-lg transition-all duration-300 animate-fade-in bg-card/80 backdrop-blur-sm">
             <div className="absolute -left-3 top-8 w-6 h-6 bg-primary rounded-full border-4 border-background hidden md:block" />
             
             <CardHeader>

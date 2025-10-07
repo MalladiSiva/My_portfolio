@@ -22,7 +22,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 px-4 bg-accent/30">
+    <section id="projects" className="py-20 px-4 bg-accent/20 backdrop-blur-sm animate-slide-up" style={{ animationDelay: '0.3s' }}>
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-center mb-12 text-foreground">
           Featured Projects
@@ -32,7 +32,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <Card
               key={project.title}
-              className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in"
+              className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 animate-fade-in bg-card/80 backdrop-blur-sm border-primary/10"
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               <CardHeader>
