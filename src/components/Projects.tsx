@@ -5,18 +5,19 @@ import { Github, ExternalLink } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Keylogger App",
+      title: "Online Hotel Room Booking System",
       description:
-        "Built using Python, pynput, and JSON for keylogging and secure data logging analysis.",
-      tech: ["Python", "pynput", "JSON"],
-      github: "https://github.com/SivaRamaKrishnaMalladi",
+        "A comprehensive full-stack hotel management platform enabling seamless room reservations, user authentication, and booking management. Features include real-time availability checking, secure payment simulation, and an admin dashboard for managing rooms and bookings.",
+      tech: ["Java", "Spring Boot", "MySQL", "HTML", "CSS", "JavaScript"],
+      github: "https://github.com/MalladiSiva",
+      role: "Full Stack Developer"
     },
     {
       title: "Online Tiffin Center Website",
       description:
         "Created using HTML, CSS, and JavaScript — a responsive platform for tiffin service and order management.",
       tech: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/SivaRamaKrishnaMalladi",
+      github: "https://github.com/MalladiSiva",
     },
   ];
 

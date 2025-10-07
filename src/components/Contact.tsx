@@ -127,10 +127,10 @@ const Contact = () => {
                 <div>
                   <p className="font-semibold mb-1">Email</p>
                   <a
-                    href="mailto:malladisivaramakrishna04@gmail.com"
+                    href="mailto:sivamalladi68@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    malladisivaramakrishna04@gmail.com
+                    sivamalladi68@gmail.com
                   </a>
                 </div>
               </CardContent>
@@ -144,12 +144,12 @@ const Contact = () => {
                 <div>
                   <p className="font-semibold mb-1">LinkedIn</p>
                   <a
-                    href="https://linkedin.com/in/siva-rama-krishna-malladi"
+                    href="http://www.linkedin.com/in/sivaramakrishna123"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    siva-rama-krishna-malladi
+                    sivaramakrishna123
                   </a>
                 </div>
               </CardContent>
@@ -163,12 +163,12 @@ const Contact = () => {
                 <div>
                   <p className="font-semibold mb-1">GitHub</p>
                   <a
-                    href="https://github.com/SivaRamaKrishnaMalladi"
+                    href="https://github.com/MalladiSiva"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    SivaRamaKrishnaMalladi
+                    MalladiSiva
                   </a>
                 </div>
               </CardContent>
